@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="GTN.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <section id="pravidla">
+        <h2>Pravidla</h2>
+        <p>Počítač si vymyslel číslo od 1 do 100. Napiš tip a zjistíš, jestli má být číslo větší (↑), nebo menší (↓). Hádej, dokud ho neuhodneš.</p>
+    </section>
+ 
+    <section id="vysledek">
+        <p id="cislo">?</p>
+        <p id="sipka"></p>
+        <p id="zprava">Napiš svůj první tip.</p>
+    </section>
+ 
+    <section id="vstup">
+        <input type="number" id="tip" placeholder="Tvůj tip">
+        <button id="tlacitko" onclick="hadej()">Hádej</button>
+        <p>Pokusy: <span id="pokusy">0</span></p>
+    </section>
+ 
+    <script src="GTN.js"></script>
+</body>
+</html>

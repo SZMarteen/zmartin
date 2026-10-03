@@ -1,0 +1,54 @@
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: slideDown 1.2s ease both;
+}
+
+#gtn {
+    animation-delay: 0s;
+}
+
+#counter {
+    animation-delay: 0.5s;
+}
+
+#rps {
+    animation-delay: 1s;
+}
+
+body {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-size: 35px;
+    text-align: center;
+}
+ 
+section {
+    width: 250px;
+    height: 200px;
+    background: lightblue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+a {
+    text-decoration: none;
+    color: black;
+}

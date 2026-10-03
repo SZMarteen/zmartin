@@ -1,0 +1,80 @@
+body{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+ 
+section {
+    background: lightblue;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+ 
+/* Pravidla nahoře uprostřed */
+#pravidla {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    max-width: 80%;
+}
+ 
+#pravidla h2 {
+    margin: 0 0 10px 0;
+}
+ 
+#pravidla p {
+    margin: 0;
+}
+ 
+/* Obě volby a zpráva uprostřed */
+#vysledek {
+    width: 400px;
+}
+ 
+#volby {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#volby p {
+    margin: 0;
+}
+ 
+.popisek {
+    font-size: 18px;
+}
+ 
+.obrazek {
+    font-size: 70px;
+}
+ 
+#zprava {
+    margin: 10px 0 0 0;
+}
+ 
+/* Tlačítka pod středem */
+#vstup {
+    width: 400px;
+}
+ 
+#vstup p {
+    margin: 15px 0 0 0;
+}
+ 
+button {
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
